@@ -1,0 +1,12 @@
+{
+  "name": "ubuntu-security",
+  "version": "1.0.0",
+  "description": "Agent skills for host security on Ubuntu desktops and servers: ufw firewall setup, status, scoped allows, rule removal and block diagnosis; ClamAV / rkhunter / chkrootkit / Lynis / AIDE install, definition updates, scans and scheduling; read-only security audits, security-update and spyware/telemetry checks; SSH keys, SSH server config and fail2ban; YubiKey/FIDO2 and fingerprint authentication; TLS certificate checks.",
+  "author": {
+    "name": "Daniel Rosehill",
+    "url": "https://github.com/danielrosehill"
+  },
+  "repository": "https://github.com/danielrosehill/Ubuntu-Security",
+  "license": "MIT",
+  "keywords": ["ubuntu", "linux", "security", "ufw", "firewall", "clamav", "rkhunter", "lynis", "aide", "malware", "audit", "ssh", "fail2ban", "yubikey", "fido2", "fingerprint", "tls", "agent-skills"]
+}
