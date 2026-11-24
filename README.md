@@ -108,13 +108,13 @@ management plugins. Nothing was deleted from those repositories; they are supers
 | `security-checkup:system-security/security-detect-spyware` | `spyware-check` |
 | `security-checkup:firewall/firewall-check`, `firewall/analyze-firewall`, `firewall/security-firewall-analyze-firewall` | `firewall-status` (rule review); hardening findings → `security-audit` |
 | `security-checkup:authentication/manage-ssh-keys` | `ssh-keys` |
-| `security-checkup:authentication/security-auth-yubi-setup` | `yubikey:pam-login` (separate plugin since 1.1.0) |
+| `security-checkup:authentication/security-auth-yubi-setup` | `hardware-auth-keys:pam-login` (separate plugin since 1.1.0) |
 | `security-checkup:authentication/security-auth-fingerprint-scanner` (was empty) | `fingerprint-setup` |
 | `linux-desktop-mgmt:analyze-firewall`, `security-firewall-analyze-firewall` | `firewall-status` |
 | `linux-desktop-mgmt:install-clamav`, `security-av-install-clamav` | `av-install` |
 | `linux-desktop-mgmt:detect-spyware`, `security-detect-spyware` | `spyware-check` |
 | `linux-desktop-mgmt:probe-vulnerabilities`, `security-audits-probe-vulnerabilities`, `write-audit`, `security-audits-write-audit`, `security-posture-check`, `security-posture-diagnostics-security-posture-check` | `security-audit` |
-| `linux-desktop-mgmt:yubi-setup`, `security-auth-yubi-setup` | `yubikey:pam-login` (separate plugin since 1.1.0) |
+| `linux-desktop-mgmt:yubi-setup`, `security-auth-yubi-setup` | `hardware-auth-keys:pam-login` (separate plugin since 1.1.0) |
 | `linux-desktop-mgmt:fingerprint-scanner`, `security-auth-fingerprint-scanner` (both empty) | `fingerprint-setup` |
 | `linux-desktop-mgmt:manage-ssh-keys`, `configuration-ssh-manage-ssh-keys` | `ssh-keys` |
 | `linux-desktop-mgmt:lan-ssh-setup`, `network-lan-lan-ssh-setup` | `ssh-keys` (copy keys to other machines) |
