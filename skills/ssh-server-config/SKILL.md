@@ -95,4 +95,4 @@ and the `sshd -t` result. No unrequested hardening.
 
 - Brute-force throttling → `fail2ban`, or `ufw limit OpenSSH` (`firewall-allow`).
 - Keys and authorized_keys → `ssh-keys`.
-- Hardware 2FA for SSH → `yubikey-setup` (`ed25519-sk` keys, or `pam_u2f`).
+- Hardware 2FA for SSH → the `yubikey` plugin (`yubikey:ssh-keys` for `ed25519-sk`, `yubikey:pam-login` for `pam_u2f`).
